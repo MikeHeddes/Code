@@ -1,10 +1,10 @@
 var blobs = [];
 var pixels = [];
 var index = 0;
-var w = 600;
+var w = 400;
 var res = 5;
-var r = 10;
-var a = 5;
+var r = 15;
+var a = 2;
 
 function setup () {
   createCanvas(w, w);
