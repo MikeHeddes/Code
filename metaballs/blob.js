@@ -2,7 +2,7 @@ function blob(x, y, r) {
 
   var pos = createVector(x, y);
   var vel = p5.Vector.random2D();
-  vel.mult(random(2, 5));
+  vel.mult(random(2, 10));
 
   this.update = function() {
     pos.add(vel);
