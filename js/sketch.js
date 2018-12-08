@@ -37,8 +37,8 @@ function draw () {
     pixels[j].show();
   }
 
-/*  for (var i = 0; i < blobs.length; i++) {
-    blobs[i].show();
-  }
-*/
+  // for (var i = 0; i < blobs.length; i++) {
+  //   blobs[i].show();
+  // }
+
 }

@@ -12,9 +12,11 @@ function pixel(x, y) {
     for (var i = 0; i < blobs.length; i++) {
       distance[i] = pos.dist(blobs[i].pos)
     }
+
     for (var j = 0; j < blobs.length; j++) {
       color.add(distance[j]);
     }
+    
     color.div(cdiv.x);
     color.limit(1);
   }

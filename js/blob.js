@@ -6,9 +6,11 @@ function blob(x, y, r) {
 
   this.update = function() {
     pos.add(vel);
+
    if (pos.x > width - r || pos.x < 0 + r) {
      vel.x *= -1;
    }
+   
    if (pos.y > height - r || pos.y < 0 + r) {
      vel.y *= -1;
    }
